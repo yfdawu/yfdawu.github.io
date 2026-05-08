@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yu Feng Wu — Data Analyst</title>
+  <meta name="description" content="Yu Feng Wu — MS Management Science at UT Dallas. Data Analyst targeting pricing analytics, product analytics, and business analytics roles." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Yu Feng Wu</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section id="hero">
+    <div class="hero-inner">
+
+      <div class="hero-text">
+        <p class="hero-availability">Open to Summer '26 Opportunities</p>
+        <h1 class="hero-name">Yu Feng Wu</h1>
+        <h2 class="hero-headline">From factory floor<br>to boardroom —<br><em>analytics that actually get used.</em></h2>
+
+        <div class="hero-tags">
+          <span>Data Analytics</span>
+          <span>Pricing & Demand Modeling</span>
+          <span>Market Strategy</span>
+          <span>Python</span>
+          <span>SQL</span>
+          <span>XGBoost</span>
+          <span>Snowflake</span>
+          <span>STEM OPT</span>
+          <span>TN Visa Eligible</span>
+        </div>
+
+        <p class="hero-bio">
+          M.S. Management Science candidate at UT Dallas with 3+ years of analytics experience at Lelon Electronics — reduced defect rates 88% via DMAIC and DOE regression modeling, cut wastewater costs $7K/month via SQL anomaly detection, and prevented $500K in contract risk for Huawei, Apple, and Bosch. Now building an XGBoost pricing platform for FleetPride across 5,000+ SKUs and leading market entry strategy for Texas Instruments across 11 robotics segments.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <!-- REPLACE: update href to your hosted resume or keep assets/Yu_Feng_Wu_Resume.pdf -->
+          <a href="assets/Yu_Feng_Wu_Resume.pdf" target="_blank" class="btn btn-secondary">View Resume</a>
+          <a href="#skills" class="btn btn-ghost">Skills</a>
+          <!-- REPLACE: update href to your GitHub profile -->
+          <a href="https://github.com/yfdawu" target="_blank" class="btn btn-ghost">GitHub</a>
+          <!-- REPLACE: update href to your LinkedIn profile -->
+          <a href="https://linkedin.com/in/yufengwu1002" target="_blank" class="btn btn-ghost">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <!-- Profile photo — already included in assets folder -->
+        <img src="assets/profile.jpeg" alt="Yu Feng Wu" />
+      </div>
+
+    </div>
+
+    <!-- Stats Row -->
+    <div class="stats-row">
+      <div class="stat">
+        <span class="stat-num">88%</span>
+        <span class="stat-label">Defect rate reduction via DMAIC and DOE regression modeling</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">$500K</span>
+        <span class="stat-label">Contract risk prevented for Huawei, Apple, and Bosch</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">5K+</span>
+        <span class="stat-label">SKUs modeled for FleetPride pricing platform</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">3 yrs</span>
+        <span class="stat-label">Industry experience across analytics & R&D</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROJECTS
+  ============================================================ -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">Featured Work</p>
+        <h2 class="section-title">Projects</h2>
+        <p class="section-sub">Graduate consulting engagements delivered Jan–May 2026.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: FleetPride -->
+        <div class="project-card">
+          <div class="project-meta">
+            <span class="project-client">FleetPride · Jan–May 2026</span>
+            <span class="project-tag">Pricing Analytics</span>
+          </div>
+          <h3 class="project-title">Pricing Analytics & Demand Forecasting Platform</h3>
+          <p class="project-desc">
+            Built an end-to-end pricing analytics system for one of the largest heavy-duty truck parts distributors in the U.S. The tool tells a sales rep, in real time, how sensitive a customer is to a price change — and whether holding, raising, or walking away is the right call.
+          </p>
+          <ul class="project-bullets">
+            <li>XGBoost elasticity model across 5,000+ SKU/customer pairs with 20+ features including macroeconomic indicators, competitor presence flags, and basket context</li>
+            <li>6-tab Streamlit application: Deal Simulator, Competitive Viability, Pricing Bands per SKU, Basket Intelligence, Customer Behavior Profile</li>
+            <li>Coordinated an 8-person analytics team across the full Jan–May 2026 delivery</li>
+          </ul>
+          <div class="project-tools">
+            <span>Python</span><span>XGBoost</span><span>Streamlit</span><span>Pandas</span><span>Plotly</span><span>SQL</span>
+          </div>
+          <div class="project-links">
+            <!-- REPLACE: add GitHub repo link when published -->
+            <a href="https://github.com/yfdawu" target="_blank" class="btn btn-sm">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 2: Texas Instruments -->
+        <div class="project-card">
+          <div class="project-meta">
+            <span class="project-client">Texas Instruments · Jan–May 2026</span>
+            <span class="project-tag">Market Strategy</span>
+          </div>
+          <h3 class="project-title">AI / Robotics Market Entry Strategy</h3>
+          <p class="project-desc">
+            Built a rigorous investment scoring framework to help Texas Instruments decide where to focus its semiconductor product strategy within the fast-growing robotics market. Findings went directly into TI's product roadmap discussions with senior leadership.
+          </p>
+          <ul class="project-bullets">
+            <li>Weighted scoring model across 11 robotics segments and 9 criteria — finalized weights in direct collaboration with TI's marketing director</li>
+            <li>Competitive landscape benchmarking 15+ semiconductor rivals (Nvidia, NXP, GigaDevice, HiSilicon) across market penetration, certification readiness, and portfolio breadth</li>
+            <li>Executive strategy deck covering TAM, CAGR, and market entry barriers for 4 priority segments — presented to TI executive panel</li>
+          </ul>
+          <div class="project-tools">
+            <span>Excel</span><span>PowerPoint</span><span>Market Research</span><span>Weighted Scoring</span><span>Strategy Analysis</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/yfdawu" target="_blank" class="btn btn-sm">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 3: Breast Cancer Diagnostic Analysis -->
+        <div class="project-card">
+          <div class="project-meta">
+            <span class="project-client">Personal Project · May 2026</span>
+            <span class="project-tag">Diagnostic Analytics</span>
+          </div>
+          <h3 class="project-title">Breast Cancer Diagnostic Analysis</h3>
+          <p class="project-desc">
+            SQL-driven exploratory analysis of tumor cell morphology using the UCI Breast Cancer Wisconsin dataset. A project where my biology background and analytics training finally meet — reading these features not just as numbers but as physical properties of cells.
+          </p>
+          <ul class="project-bullets">
+            <li>5-script MySQL analysis pipeline covering data cleaning, univariate analysis, feature separation ranking, outlier detection, and variance comparison across 569 patient records</li>
+            <li>Identified concavity mean (3.49x ratio) and concave points mean (3.42x) as strongest diagnostic signals — shape irregularity outperforms size across all feature pairs</li>
+            <li>Found fractal dimension carries zero diagnostic signal (1.00x ratio) — a counterintuitive finding that challenges standard biological assumptions</li>
+          </ul>
+          <div class="project-tools">
+            <span>MySQL</span><span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Jupyter</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/yfdawu/breast_cancer_diagnostic_analysis" target="_blank" class="btn btn-sm">GitHub ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SKILLS
+  ============================================================ -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">Toolkit</p>
+        <h2 class="section-title">Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Programming</h4>
+          <div class="skill-tags">
+            <span>Python</span><span>SQL</span><span>R</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Machine Learning & Analytics</h4>
+          <div class="skill-tags">
+            <span>XGBoost</span><span>Statistical Modeling</span><span>A/B Testing</span><span>Pricing Analytics</span><span>Demand Forecasting</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Data & Infrastructure</h4>
+          <div class="skill-tags">
+            <span>Snowflake</span><span>AWS</span><span>Spark</span><span>Git</span><span>Pandas</span><span>NumPy</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Visualization & Tools</h4>
+          <div class="skill-tags">
+            <span>Streamlit</span><span>Plotly</span><span>Tableau</span><span>Power BI</span><span>Excel</span><span>PowerPoint</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h4>Business</h4>
+          <div class="skill-tags">
+            <span>Market Research</span><span>Strategy</span><span>Lean Six Sigma</span><span>Process Mapping</span><span>KPI Tracking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       ABOUT
+  ============================================================ -->
+  <section id="about">
+    <div class="section-inner about-inner">
+      <div class="about-text">
+        <div class="section-header" style="text-align:left;">
+          <p class="section-label">Background</p>
+          <h2 class="section-title">About</h2>
+        </div>
+        <p>
+          I'm a data analytics professional pursuing an M.S. in Management Science at UT Dallas (Naveen Jindal School of Management, Scholar with Recognition). Before grad school, I spent three years at Lelon Electronics in Jiangsu, China — a Taiwanese capacitor manufacturer supplying Bosch, Huawei, and Apple.
+        </p>
+        <p>
+          I joined directly out of UC Irvine, moving into an environment I had never worked in, in a language I was still learning, during a pandemic. The work was data science in practice before I had the title for it: Python-based workflow analysis, SQL-driven KPI dashboards, iterative A/B testing on polymer formulations. I reduced defect rates 88% through DMAIC and DOE regression modeling, cut wastewater costs $7K/month via SQL anomaly detection, and prevented $500K in contract risk for Huawei, Apple, and Bosch through root cause analysis. I learned that analytical work requires more than a correct answer — it requires one that people can see, trust, and act on.
+        </p>
+        <p>
+          Now at UTD, I'm applying that same instinct to pricing models and market strategy at scale. I'm fluent in English and Mandarin, authorized to work in the U.S. (STEM OPT eligible, TN visa eligible as a Canadian citizen), and open to full-time data analyst, product analytics, and business analytics roles starting Summer 2026.
+        </p>
+        <div class="about-links">
+          <a href="assets/Yu_Feng_Wu_Resume.pdf" target="_blank" class="btn btn-primary">Download Resume</a>
+          <a href="https://linkedin.com/in/yufengwu1002" target="_blank" class="btn btn-ghost">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="about-edu">
+        <div class="edu-card">
+          <span class="edu-year">2024 – 2026</span>
+          <h4>M.S. Management Science</h4>
+          <p>University of Texas at Dallas</p>
+          <p class="edu-note">Scholar with Recognition · Naveen Jindal School of Management</p>
+        </div>
+        <div class="edu-card">
+          <span class="edu-year">2017 – 2021</span>
+          <h4>B.S. Biological Sciences</h4>
+          <p>University of California, Irvine</p>
+        </div>
+        <div class="edu-card exp-card">
+          <span class="edu-year">2021 – 2024</span>
+          <h4>Lelon Electronics Corp.</h4>
+          <p>Operations Analytics Specialist → R&D / QA Scientist → Manufacturing Intern</p>
+          <p class="edu-note">Jiangsu, China</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT
+  ============================================================ -->
+  <section id="contact">
+    <div class="section-inner contact-inner">
+      <div class="section-header">
+        <p class="section-label">Get in Touch</p>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-sub">Open to full-time Data Analyst, Product Analytics, and Business Analytics roles starting Summer 2026.</p>
+      </div>
+      <div class="contact-links">
+        <!-- REPLACE: update email address if different -->
+        <a href="mailto:yufengdanielwu@outlook.com" class="contact-card">
+          <span class="contact-icon">✉</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-val">yufengdanielwu@outlook.com</span>
+        </a>
+        <a href="https://linkedin.com/in/yufengwu1002" target="_blank" class="contact-card">
+          <span class="contact-icon">in</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-val">yufengwu1002</span>
+        </a>
+        <a href="https://github.com/yfdawu" target="_blank" class="contact-card">
+          <span class="contact-icon">⌥</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-val">github.com/yfdawu</span>
+        </a>
+        <a href="assets/Yu_Feng_Wu_Resume.pdf" target="_blank" class="contact-card">
+          <span class="contact-icon">↓</span>
+          <span class="contact-label">Resume</span>
+          <span class="contact-val">Download PDF</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer>
+    <div class="footer-inner">
+      <span class="footer-name">Yu Feng Wu</span>
+      <span class="footer-copy">© 2026 · Built with HTML, CSS & JS · Hosted on GitHub Pages</span>
+      <div class="footer-links">
+        <a href="https://github.com/yfdawu" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yufengwu1002" target="_blank">LinkedIn</a>
+        <a href="assets/Yu_Feng_Wu_Resume.pdf" target="_blank">Resume</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
