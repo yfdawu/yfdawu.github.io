@@ -25,6 +25,8 @@ SQL-driven exploratory analysis of tumor cell morphology using the UCI Breast Ca
 ## Background
 
 - 3 years at **Lelon Electronics** (Jiangsu, China) — reduced defect rates 88% via DMAIC and DOE regression modeling, cut wastewater costs $7K/month via SQL anomaly detection, prevented $500K in contract risk for Huawei, Apple, and Bosch
+- Built an XGBoost pricing platform for FleetPride across 5,000+ SKUs with a 6-tab Streamlit deal simulator — coordinated an 8-person analytics team across the full Jan–May 2026 delivery
+- Led market entry strategy for Texas Instruments across 11 robotics segments — weighted scoring model built in direct collaboration with TI's marketing director, presented to executive panel
 - B.S. Biological Sciences, **UC Irvine** · M.S. Management Science, **UT Dallas**
 - Fluent in **English and Mandarin**
 
