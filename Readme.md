@@ -1,4 +1,4 @@
-# Hi, I'm Daniel (Yu Feng Wu)
+# Hi, I'm Yu Feng Daniel Wu
 
 M.S. Management Science candidate at UT Dallas · Data Analyst · STEM OPT & TN Visa Eligible
 
